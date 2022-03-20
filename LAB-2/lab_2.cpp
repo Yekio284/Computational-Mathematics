@@ -76,8 +76,8 @@ int main() {
     delete[] result;
     delete[] x;
     
-	for(int i = 0; i < SIZE; i++)
-        delete[] matrix[i];
+    for(int i = 0; i < SIZE; i++)
+	delete[] matrix[i];
     
 	return 0;
 }
