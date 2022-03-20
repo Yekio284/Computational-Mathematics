@@ -44,7 +44,7 @@ double *iterative_method(double **a, double *x, int n) {
 
 	}
 
-    delete[] next_approximation;
+        delete[] next_approximation;
 
 	return result;
 }
