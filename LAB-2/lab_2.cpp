@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 
 #define SIZE 3
 
