@@ -50,7 +50,7 @@ double *iterative_method(double **a, double *x, int n) {
 }
 
 int main() {
-	double **matrix = new double*[SIZE];
+    double **matrix = new double*[SIZE];
     for (int i = 0; i < SIZE; i++) 
         matrix[i] = new double[SIZE];
 
@@ -63,7 +63,7 @@ int main() {
         for (int j = 0; j < SIZE; j++) {
             fscanf(in, "%lf", &matrix[i][j]);
         }
-	    fscanf(in, "%lf", &x[i]);
+	fscanf(in, "%lf", &x[i]);
     }
     fclose(in);
     
@@ -80,5 +80,5 @@ int main() {
     for(int i = 0; i < SIZE; i++)
 	delete[] matrix[i];
     
-	return 0;
+    return 0;
 }
