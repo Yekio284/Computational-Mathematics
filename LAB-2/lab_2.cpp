@@ -30,7 +30,7 @@ double *iterative_method(double **a, double *x, int n) {
 
 		bool flag = true;
 		
-        for (i = 0; i < n - 1; i++) { //проверяем: является ли текущее приблежение верным?
+                for (i = 0; i < n - 1; i++) { //проверяем: является ли текущее приблежение верным?
 			if (abs(next_approximation[i] - result[i]) > epsilon) {
 				flag = false;
 				break;
