@@ -45,7 +45,7 @@ void half_division_method(double a, double b) {
     cout << "\n";
 }
 
-void chord_method(double a, double b) {
+void secant_method(double a, double b) {
     double epsilon, c;
     cout << "Метод хорд для ";
     show_function();
@@ -112,7 +112,7 @@ int main() {
     }
 
     half_division_method(a, b);
-    chord_method(a, b);
+    secant_method(a, b);
     newton_method();
 
     return 0;
