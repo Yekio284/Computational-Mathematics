@@ -14,7 +14,7 @@ void show_function() {
     cout << "f(x) = x^2 - 3";
 }
 
-void half_division_method(double a, double b) {
+void bisection_method(double a, double b) {
     double epsilon, c;
     cout << "Метод половинного деления для ";
     show_function();
@@ -111,7 +111,7 @@ int main() {
         }
     }
 
-    half_division_method(a, b);
+    bisection_method(a, b);
     secant_method(a, b);
     newton_method();
 
