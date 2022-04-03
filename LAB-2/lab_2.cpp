@@ -80,6 +80,7 @@ int main() {
     
     for(int i = 0; i < SIZE; i++)
 	delete[] matrix[i];
+    delete[] matrix;
     
     return 0;
 }
