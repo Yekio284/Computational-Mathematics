@@ -32,7 +32,7 @@ int main() {
     while (abs(right_rectangle_method(a, b, k * i) - right_rectangle_method(a, b, k * (i + 1))) > epsilon)
         i++;
     
-    cout << "Результат интегрирования методом правых прямоугольников: S = " << right_rectangle_method(a, b, k * i) << endl;
+    cout << "Результат интегрирования методом правых прямоугольников: S = " << right_rectangle_method(a, b, k * (i + 1)) << endl;
 
     return 0;
 }
