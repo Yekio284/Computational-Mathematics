@@ -97,7 +97,6 @@ int main() {
     double result_second = newton_second(x, y, inter, h);
     cout << "Результат интерполяции по II-й формуле Ньютона: " << result_second << endl;
 
-
     short a = 0, i = 0;
     
     while (i < LENGTH) {
