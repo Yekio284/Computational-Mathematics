@@ -1,1 +1,4 @@
-Right rectangle method (integration)
+Numerical integration:
+- Right rectangle method
+- Trapezoidal rule
+- Simpson's rule
