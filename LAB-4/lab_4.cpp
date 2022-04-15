@@ -17,6 +17,7 @@ double lagrange_method(double *x, double *y, double inter) {
 		}
 		result = result + k;
 	}
+	
 	return result;
 }
 
