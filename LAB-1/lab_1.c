@@ -7,10 +7,11 @@
 void gauss_method(int n, double a[][n], double *x) {
     int imax, i, j, k;
     double amax, c;
+    
     for (k = 0; k < n; k++) {
         imax = k;
         amax = fabs(a[k][k]);
-        for (i = k + 1; i < n; i++) {
+	for (i = k + 1; i < n; i++) {
             if (fabs(a[i][k]) > amax) {
                 imax = i;
                 amax = fabs(a[j][k]);
@@ -49,10 +50,8 @@ void gauss_method(int n, double a[][n], double *x) {
 int main() {
     double matrix[SIZE][SIZE];
     double x[SIZE];
-    FILE *in;
-    FILE *out;
-    in = fopen("1.txt", "r");
-    out = fopen("2.txt", "w");
+    FILE *in = fopen("in.txt", "r");
+    FILE *out = fopen("out.txt", "w");
 
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
@@ -66,7 +65,9 @@ int main() {
     for (int i = 0; i < SIZE; i++) {
         fprintf(out, "x%d = %lf\n", i + 1, x[i]);
     }
+	
     fclose(in);
     fclose(out);
+    
     return 0;
 }
