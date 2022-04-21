@@ -1,0 +1,4 @@
+Homogeneous differential equation:
+1. Euler method
+2. Euler-Cauchy method
+3. Runge–Kutta method
