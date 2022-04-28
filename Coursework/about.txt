@@ -1,0 +1,1 @@
+Solving the system of ordinary differential equations of mathematical model SEIR-D on time interval t ∈ [0; 90] for Novosibirsk Oblast, Russia. Using Euler method
