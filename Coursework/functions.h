@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdio>
+#include <iostream>
 #include "coefficients.h"
 
 double function_a(double t) {
